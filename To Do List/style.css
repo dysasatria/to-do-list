@@ -1,0 +1,75 @@
+body{
+    background-color: #2C7865;
+}
+.todo-wrapper{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: 250;
+    width: 30%;
+    text-align: center;
+}
+.todo-wrapper h2{
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.todo-wrapper p{
+    font-style: italic;
+    color: grey;
+    margin-top: 5px 0;
+}
+.todo-wrapper ol{
+    margin: 0;
+    padding: 0;
+}
+.todo-wrapper ol li{
+    margin: 2px 0;
+    padding: 2px;
+    transition: all 0.5s ease-out;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 2px;
+    list-style: none;
+}
+.todo-wrapper .completed{
+    text-decoration-line: line-through;
+}
+.todo-wrapper form{
+    display: inline-block;
+}
+.todo-wrapper input{
+    padding: 10px 5px;
+}
+.todo-wrapper .pretty-btn{
+    margin: 10px 2px;
+    background-color: #0093D5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+    color: white;
+}
+.todo-wrapper .pretty-btn:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.todo-wrapper .control-wrapper{
+    text-align: center;
+}
+.todo-wrapper #clear-completed-btn{
+    background-color: yellow;
+    color: black;
+}
+.todo-wrapper #empty-btn{
+    background-color: red;
+}
+.todo-wrapper #save-btn{
+    background-color: green;
+}
